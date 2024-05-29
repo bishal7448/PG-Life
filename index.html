@@ -12,111 +12,120 @@
 </head>
 <body>
 
-  <!-- header-section -->
+  <!-- Header-section -->
 
-  <div class="header sticky-top">
-    <nav class="navbar bg-body-tertiary fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img src="logo.png" alt="logo-png">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
+  <header>
+    <div class="header sticky-top">
+      <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
             <img src="logo.png" alt="logo-png">
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <img src="logo.png" alt="logo-png">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#" target="_blank"><i class="fa-solid fa-user"></i> Signup</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" target="_blank"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#" target="_blank"><i class="fa-solid fa-user"></i> Signup</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" target="_blank"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
-              </li>
-            </ul>
+        </div>
+      </nav>
+    </div>    
+  </header>
+
+  <!-- Main-section -->
+
+  <main>
+
+    <!-- Hero-section -->
+
+    <div class="hero-section">
+      <h5 class="hero-heading">Happiness Per Square Foot</h5>
+      <div class="search-section">
+        <input type="text" placeholder="Enter your city to search for PGs" class="search-bar">
+        <div class="search-button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Major-city -->
+
+    <h5 class="major-city">Major cities</h5>
+
+    <div class="row city-section">
+      <div class="col-md-3 first-col-md-3">
+        <div class="inner-box1">
+          <div class="inner-box2">
+            <a href="#">
+              <img src="delhi.png">
+            </a>
           </div>
         </div>
       </div>
-    </nav>
-  </div>
-
-  <!-- mid-section -->
-
-  <div class="mid-section">
-    <h5 class="mid-heading">Happiness Per Square Foot</h5>
-    <div class="search-section">
-      <input type="text" placeholder="Enter your city to search for PGs" class="search-bar">
-      <div class="search-icon">
-          <i class="fa-solid fa-magnifying-glass"></i>
+      <div class="col-md-3 second-col-md-3">
+        <div class="inner-box1">
+          <div class="inner-box2">
+            <a href="#">
+              <img src="mumbai.png">
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-
-  <!-- major-city -->
-
-  <h5 class="major-city">Major cities</h5>
-
-  <div class="row city-section">
-    <div class="col-md-3">
-      <div class="inner-box1">
-        <div class="inner-box2">
-          <a href="#">
-            <img src="delhi.png">
-          </a>
+      <div class="col-md-3 third-col-md-3">
+        <div class="inner-box1">
+          <div class="inner-box2">
+            <a href="#">
+              <img src="bangalore.png">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 last-col-md-3">
+        <div class="inner-box1">
+          <div class="inner-box2">
+            <a href="#">
+              <img src="hyderabad.png">
+            </a>
+          </div>
         </div>
       </div>
     </div>
-    <div class="col-md-3">
-      <div class="inner-box1">
-        <div class="inner-box2">
-          <a href="#">
-            <img src="chennai.png">
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="inner-box1">
-        <div class="inner-box2">
-          <a href="#">
-            <img src="bangalore.png">
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="inner-box1">
-        <div class="inner-box2">
-          <a href="#">
-            <img src="hyderabad.png">
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="space" style="height: 50px; width: 100vw;"></div>
+    <div class="space" style="height: 50px; width: 100vw;"></div>
+  </main>
 
-  <!-- footer-section -->
+  <!-- Footer-section -->
 
-  <div class=footer>
-    <div class="row foot">
-      <div class="col-md-3 nou">
-        <a href="#">PG in Delhi</a>
+  <footer>
+    <div class=footer>
+      <div class="row foot">
+        <div class="col-md-3 first-col-3" id="extra">
+          <a href="#">PG in Delhi</a>
+        </div>
+        <div class="col-md-3 second-col-3" id="extra1">
+          <a href="#">PG in Mumbai</a>
+        </div>
+        <div class="col-md-3 thrid-col-3" id="extra1">
+          <a href="#">PG in Bangalore</a>
+        </div>
+        <div class="col-md-3 last-col-3" id="extra1">
+          <a href="#">PG in Hyderabad</a>
+        </div>
       </div>
-      <div class="col-md-3">
-        <a href="#">PG in Chennai</a>
-      </div>
-      <div class="col-md-3">
-        <a href="#">PG in Bangalore</a>
-      </div>
-      <div class="col-md-3">
-        <a href="#">PG in Hyderabad</a>
-      </div>
+      <div class="copyright">© 2024 Copyright PG Life </div>
     </div>
-    <div class="copyright">© 2024 Copyright PG Life </div>
-  </div>
+  </footer>
 </body>
 </html>
